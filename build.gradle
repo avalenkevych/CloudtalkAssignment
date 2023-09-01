@@ -18,6 +18,6 @@ dependencies {
 test {
     useJUnitPlatform()
     reports {
-        junitXml = true
+        junitXml.enabled = true
     }
 }
