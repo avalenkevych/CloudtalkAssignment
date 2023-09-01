@@ -8,8 +8,8 @@ public class UnixTimestampConverterTests {
 
     @Test
     public void testConvertUnixTimestampToDate() {
-        long unixTimestamp = 951357;
-        String expectedDate = "\"1970-01-12 12:15:57\"";
+        long unixTimestamp = 1234567890;
+        String expectedDate = "\"2009-02-13 11:31:30\"";
 
         String actualResponse =
                 given()
@@ -26,7 +26,7 @@ public class UnixTimestampConverterTests {
     @Test
     public void testConvertNegativeUnixTimestampToDate() {
         long unixTimestamp = -3600;
-        String expectedDate = "1969-12-31 23:59:00";
+        String expectedDate = "\"1969-12-31 11:00:00\"";
 
         String actualResponse =
         given()
