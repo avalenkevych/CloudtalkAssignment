@@ -2,12 +2,19 @@
 
 ## Overview
 
-Project include automated tests for Unix Timestamp Converter API
+Project include automated tests for Unix Timestamp Converter API.
+ 
+Technology stack used:
+ - Java 17
+ - Rest Assured
+ - JUnit
+
 ## Table of Contents
 
 1. [Running Tests Locally](#running-tests-locally)
 2. [Automated Test Cases](#automated-test-cases)
 3. [Running Tests in GitHub Actions](#running-tests-in-github-actions)
+4. [API Improvements](#api-improvements)
 
 ## Running Tests Locally
 
@@ -65,5 +72,20 @@ This project is set up to run automated tests using GitHub Actions whenever ther
 
 3. You can click on individual test runs to see detailed logs and any failed tests.
 
+## API Improvements
 
+### 1. Error Handling and Validation:
+
+   - Provide informative error messages to users, helping them understand issues with their input.
+   - Handle exceptional cases such as invalid date formats or out-of-range timestamps and return appropriate error codes.
+   
+### 2. API Documentation:
+
+   - Create comprehensive API documentation that includes clear instructions on how to use the API, available endpoints, input formats, and expected responses.
+   - Use tools like Swagger/OpenAPI to generate interactive API documentation for easy exploration. 
+
+### 3. Monitoring and Logging:
+
+   - Implement thorough logging to capture errors, warnings, and other relevant information for troubleshooting.
+   - Set up monitoring tools to track API usage, performance metrics, and uptime.
 ---
