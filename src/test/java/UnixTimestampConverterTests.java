@@ -72,7 +72,7 @@ public class UnixTimestampConverterTests {
 
 
         // Assert the response body matches the expected date string
-        assertEquals(timestamp, response);
+        assertEquals(timestamp, Long.parseLong(response));
 
 
     }
