@@ -62,7 +62,7 @@ Feel free to explore the test classes in the repository to see the detailed test
 
 ## Running Tests in GitHub Actions
 
-This project is set up to run automated tests using GitHub Actions whenever there is a push to the `main` branch. The workflow is defined in the `.github/workflows/test.yml` file.
+This project is set up to run automated tests using GitHub Actions whenever there is a push to the `main` branch. The workflow is defined in the `.github/workflows/main.yml` file.
 
 ### Viewing Workflow Runs
 
@@ -70,7 +70,7 @@ This project is set up to run automated tests using GitHub Actions whenever ther
 
 2. Select the latest workflow run to see its details, including test results.
 
-3. You can click on individual test runs to see detailed logs and any failed tests.
+3. You can click on individual test runs to see detailed logs and download test report.
 
 ## API Improvements
 
