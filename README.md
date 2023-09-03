@@ -30,22 +30,16 @@ To run the automated tests for the Unix Timestamp Converter API locally, follow 
 
    ```bash
    git clone https://github.com/avalenkevych/CloudtalkAssignment.git
-   cd your-repo
-   ```
-
-2. Install project dependencies using Gradle (or Maven):
-
-   ```bash
-   ./gradlew clean test
+   cd CloudtalkAssignment
    ```
 
 ### Running Tests
 
-3. Run the automated tests:
+2. Run the automated tests:
 
 
    ```bash
-   ./gradlew test
+   ./gradlew clean test
    ```
 
 

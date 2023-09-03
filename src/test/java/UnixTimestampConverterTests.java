@@ -32,7 +32,7 @@ public class UnixTimestampConverterTests {
 
     @ParameterizedTest
     @MethodSource("convertUnixTimestampToDateParameters")
-    public void testConvertUnixTimestampToDate(String unixTimestamp, String date) {
+    public void shouldConvertUnixTimestampToDate(String unixTimestamp, String date) {
 
         // Send a GET request using RestAssured
         String response = RestAssured
@@ -51,7 +51,7 @@ public class UnixTimestampConverterTests {
 
     @ParameterizedTest
     @MethodSource("convertDateToUnixTimestampParameters")
-    public void testConvertDateToUnixTimestamp(String date) throws ParseException {
+    public void shouldConvertDateToUnixTimestamp(String date) throws ParseException {
         // Define the date format for parsing
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date getDate = dateFormat.parse(date);
