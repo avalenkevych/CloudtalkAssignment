@@ -47,12 +47,16 @@ To run the automated tests for the Unix Timestamp Converter API locally, follow 
 
 ## Automated Test Cases
 
-The automated tests cover various scenarios for the Unix Timestamp Converter API. These include:
+The automated tests cover various scenarios for the Unix Timestamp Converter API.
 
+Tests located in:
+`https://github.com/avalenkevych/CloudtalkAssignment/blob/main/src/test/java/UnixTimestampConverterTests.java`
+
+These include:
 - **Convert Unix Timestamp to Date String:** Test cases for converting Unix Timestamp to Date String, covering typical and edge cases.
 - **Convert Date String to Unix Timestamp:** Test cases for converting Date String to Unix Timestamp, with scenarios like valid dates, invalid dates, and different formats.
 
-Feel free to explore the test classes in the repository to see the detailed test cases.
+Note: one of test cases failed to show that it is working incorrectly.
 
 ## Running Tests in GitHub Actions
 
